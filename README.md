@@ -9,3 +9,14 @@ Click [here](https://www.crunchydata.com/developers/playground?sql=https://raw.g
 
 # Database Design Process
 
+We began brainstorming by thinking of entities such as students, drivers, and restaurants. Then we developed relationships to connect entities such as student orders, where studets can have many orders but a single order can only be attributed to one student. Below is a screenshot of the brainstorming notes. 
+
+<img width="599" alt="Screenshot 2023-12-18 at 8 57 39 PM" src="https://github.com/kimsejas/PostgreSQL-WM-Food-Delivery/assets/109777428/aeb50cb1-a7a0-4228-8460-c73a17f00ecc">
+
+
+After many iterations the final Entity-Relationship diagram was made. 
+<img width="1145" alt="Screenshot 2023-12-18 at 8 59 47 PM" src="https://github.com/kimsejas/PostgreSQL-WM-Food-Delivery/assets/109777428/507f0a5b-6967-47be-9c21-550c666f085c">
+
+
+To convert the diagram into a schema (to create our database) we reduced redundancy and improved data integrity through the BCNF normalization process. Lastly, we thought of any constraints 
+(e.g. a food item cannot have a price below 0) for our database. 
