@@ -9,7 +9,7 @@ Click [here](https://www.crunchydata.com/developers/playground?sql=https://raw.g
 
 # Database Design Process
 
-We began brainstorming by thinking of entities such as students, drivers, and restaurants. Then we developed relationships to connect entities such as student orders, where studets can have many orders but a single order can only be attributed to one student. Below is a screenshot of the brainstorming notes. 
+We began brainstorming by thinking of entities such as students, drivers, and restaurants. Then we developed relationships to connect entities such as student orders, where students can have many orders but a single order can only be attributed to one student. Below is a screenshot of the brainstorming notes. 
 
 <img width="599" alt="Screenshot 2023-12-18 at 8 57 39 PM" src="https://github.com/kimsejas/PostgreSQL-WM-Food-Delivery/assets/109777428/aeb50cb1-a7a0-4228-8460-c73a17f00ecc">
 
